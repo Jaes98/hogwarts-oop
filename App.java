@@ -7,5 +7,7 @@ public class App {
     }
     public void start() {
         System.out.println("Hello, world!");
+        Student student = new Student("Potter", "James", "Harry", 1991, 1998, true);
+        System.out.println(student.toString());
     }
 }

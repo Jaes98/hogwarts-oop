@@ -33,4 +33,8 @@ public class Student extends Person {
     // public void setGraduated(boolean graduated) {
     //     this.graduated = graduated;
     // }
+
+    public String toString() {
+        return super.toString() + " " + enrollmentYear + " " + graduationYear + " " + graduated;
+    }
 }
