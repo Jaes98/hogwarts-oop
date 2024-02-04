@@ -7,9 +7,9 @@ public class HogwartsTeacher extends Teacher {
         this.house = house;
         this.headOfHouse = headOfHouse;
     }
-    public HogwartsTeacher(String fullName) {
-        setFullName(fullName);
-    }
+    // public HogwartsTeacher(String fullName) {
+    //     setFullName(fullName);
+    // }
     public HogwartsTeacher() {
     }
 
