@@ -1,38 +1,41 @@
 import java.util.Date;
+import java.time.*;
+
 
 public class Teacher extends Person {
-    boolean employment;
-    Date employmentStart;
-    Date employmentEnd;
+    String employment;
+    LocalDate employmentStart;
+    LocalDate employmentEnd;
 
-    public Teacher(String fullName, boolean employment, Date employmentStart, Date employmentEnd) {
-        super(fullName);
+    public Teacher(String lastName, String firstName, String middleName, String employment, String employmentStart, String employmentEn) {
+        super(lastName, firstName, middleName);
         this.employment = employment;
-        this.employmentStart = employmentStart;
-        this.employmentEnd = employmentEnd;
+        this.employmentStart = LocalDate.parse(employmentStart);
+        this.employmentEnd = LocalDate.parse(employmentEnd);
     }
+    public Teacher() {}
 
-    public boolean isEmployment() {
-        return this.employment;
-    }
+    // public boolean isEmployment() {
+    //     return this.employment;
+    // }
 
-    public void setEmployment(boolean employment) {
-        this.employment = employment;
-    }
+    // public void setEmployment(boolean employment) {
+    //     this.employment = employment;
+    // }
 
-    public Date getEmploymentStart() {
-        return this.employmentStart;
-    }
+    // public Date getEmploymentStart() {
+    //     return this.employmentStart;
+    // }
 
-    public void setEmploymentStart(Date employmentStart) {
-        this.employmentStart = employmentStart;
-    }
+    // public void setEmploymentStart(Date employmentStart) {
+    //     this.employmentStart = employmentStart;
+    // }
 
-    public Date getEmploymentEnd() {
-        return this.employmentEnd;
-    }
+    // public Date getEmploymentEnd() {
+    //     return this.employmentEnd;
+    // }
 
-    public void setEmploymentEnd(Date employmentEnd) {
-        this.employmentEnd = employmentEnd;
-    }
+    // public void setEmploymentEnd(Date employmentEnd) {
+    //     this.employmentEnd = employmentEnd;
+    // }
 }
