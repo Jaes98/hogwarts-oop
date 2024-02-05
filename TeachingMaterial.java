@@ -1,4 +1,4 @@
-public class TeachingMaterial extends Course {
+abstract class TeachingMaterial extends Course {
     String name;
     boolean onShoppingList;
     boolean required;

@@ -11,6 +11,9 @@ public class Course {
         this.materials = materials;
     }
     public Course() {}
-
+    public void setTeachers() {
+    }
+    public void addStudents() {
+    }
 
 }

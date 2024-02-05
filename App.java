@@ -7,7 +7,15 @@ public class App {
     }
     public void start() {
         System.out.println("Hello, world!");
-        Student student = new Student("Potter", "James", "Harry", 1991, 1998, true);
-        System.out.println(student.toString());
+        Person ron = new Person("Ronald", "Weasley", "Weasel");
+        Student harry = new Student("Potter", "Harry", "James", 1991, 1998, true);
+        // HogwartsStudent hStudent = new HogwartsStudent("Potter", "Harry", "James", 1991, 1998, true, "Lmao", true, "Yessir");
+        System.out.println(harry.toString());
+        // System.out.println(hStudent.toString());
+
+        DynamicArray dArray = new DynamicArray();
+        dArray.add("ron");
+        dArray.printArray();
+
     }
 }
