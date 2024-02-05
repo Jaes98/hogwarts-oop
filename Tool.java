@@ -6,4 +6,7 @@ public class Tool extends TeachingMaterial {
         super(name, onShoppingList, required, provided, notes);
         this.description = description;
     }
+    public Tool() {
+        
+    }
 }

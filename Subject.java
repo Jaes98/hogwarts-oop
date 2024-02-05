@@ -8,4 +8,7 @@ public class Subject extends Course {
         this.schoolYear = schoolYear;
         this.elective = elective;
     }
+    public Subject() {
+        
+    }
 }

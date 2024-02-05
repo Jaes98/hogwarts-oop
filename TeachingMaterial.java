@@ -12,4 +12,7 @@ public class TeachingMaterial extends Course {
         this.provided = provided;
         this.notes = notes;
     }
+    public TeachingMaterial() {
+        
+    }
 }

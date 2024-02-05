@@ -9,6 +9,8 @@ public class HogwartsStudent extends Student {
             this.prefect = prefect;
             this.teams = teams;
         }
+        public HogwartsStudent() {
+        }
 
         // public House getHouse() {
         //     return this.house;

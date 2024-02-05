@@ -8,4 +8,5 @@ public class House extends HogwartsPerson{
         this.founder = founder;
         this.colors = colors;
     }
+    public House() {}
 }

@@ -10,6 +10,7 @@ public class Course {
         this.students = students;
         this.materials = materials;
     }
+    public Course() {}
 
-    
+
 }

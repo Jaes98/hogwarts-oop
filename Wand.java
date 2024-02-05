@@ -8,4 +8,7 @@ public class Wand extends TeachingMaterial {
         this.wood = wood;
         this.core = core;
     }
+    public Wand() {
+        
+    }
 }

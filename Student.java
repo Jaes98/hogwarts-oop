@@ -9,6 +9,8 @@ public class Student extends Person {
         this.graduationYear = graduationYear;
         this.graduated = graduated;
     }
+    public Student() {
+    }
 
     // public int getEnrollmentYear() {
     //     return enrollmentYear;

@@ -10,4 +10,7 @@ public class Ingredient extends TeachingMaterial {
         this.provided = provided;
         this.notes = notes;
     }
+    public Ingredient() {
+        
+    }
 }
