@@ -1,3 +1,3 @@
-public class HogwartsPerson extends Person {
+public class HogwartsPerson {
     
 }
