@@ -1,4 +1,4 @@
-public class HogwartsTeacher extends Teacher {
+public class HogwartsTeacher extends Teacher implements HogwartsPerson {
     House house;
     boolean headOfHouse;
 

@@ -1,4 +1,4 @@
-public class House extends HogwartsPerson{
+public class House implements HogwartsPerson{
     String houseName;
     String founder;
     String[] colors;

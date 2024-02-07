@@ -10,7 +10,8 @@ public class App {
         Person ron = new Person("Ronald", "Weasley", "Weasel");
         Student harry = new Student("Potter", "Harry", "James", 1991, 1998, true);
         // HogwartsStudent hStudent = new HogwartsStudent("Potter", "Harry", "James", 1991, 1998, true, "Lmao", true, "Yessir");
-        System.out.println(harry.toString());
+        System.out.println(harry);
+        System.out.println(ron);
         // System.out.println(hStudent.toString());
 
         DynamicArray dArray = new DynamicArray();

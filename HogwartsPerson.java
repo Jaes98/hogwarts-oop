@@ -1,3 +1,3 @@
-public class HogwartsPerson {
+public interface HogwartsPerson {
     
 }

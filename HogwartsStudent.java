@@ -1,4 +1,4 @@
-public class HogwartsStudent extends Student {
+public class HogwartsStudent extends Student implements HogwartsPerson {
     House house;
     boolean prefect;
     String[] teams;
