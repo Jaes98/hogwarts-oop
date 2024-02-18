@@ -18,5 +18,7 @@ public class App {
     public void start() {
         System.out.println("Det virker da helt vildt godt, for sure!");
         dataStart = new InitData(teachController, studController);
+        dataStart.initData();
+
     }
 }

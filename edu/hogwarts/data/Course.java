@@ -53,16 +53,16 @@ public class Course {
     }
 
     public String toString(){
-        String studentMsg = "";
-        for (Student student : students) {
-            studentMsg += student + " ";
-        }
-        String materialMsg = "";
-        for (TeachingMaterial material : materials) {
-            materialMsg += material + " ";
-        }
-        String msg = "\n subject " + subject + "\n teacher " + teacher + "\n teacher " + teacher + "\n students " +studentMsg +
-                "\n materials " +materialMsg;
+//        String studentMsg = "";
+//        for (Student student : students) {
+//            studentMsg += student + " ";
+//        }
+//        String materialMsg = "";
+//        for (TeachingMaterial material : materials) {
+//            materialMsg += material + " ";
+//        }
+        String msg = "\n subject " + subject + "\n teacher " + teacher + "\n teacher " + teacher + "\n students " +
+                "\n materials ";
         return msg;
     }
 }
