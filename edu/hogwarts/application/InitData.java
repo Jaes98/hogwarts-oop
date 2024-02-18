@@ -29,7 +29,7 @@ public class InitData {
         var potionCourse = new Course(potionSubject, snape, new HogwartsStudent[]{harry, ron}, new TeachingMaterial[]{tempIngredient, testTool} );
 
         System.out.println(potionCourse);
-        System.out.println("printer den?");
+        System.out.println("printer den??");
 
         students.createStudent(harry);
         students.createStudent(ron);
