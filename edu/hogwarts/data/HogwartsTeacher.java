@@ -32,6 +32,10 @@ public class HogwartsTeacher extends Teacher {
     }
 
     public String toString() {
-        return get
+        return "HogwartsTeacher{" +
+                // "name=" + getFirstName() + ", " + getLastName() + ", " +
+                "house=" + getHouse() +
+                ", headOfHouse=" + isHeadOfHouse() +
+                '}';
     }
 }

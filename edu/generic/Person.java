@@ -5,12 +5,6 @@ public class Person {
     private String middleName;
     private String lastName;
 
-    // public edu.generic.Person(String firstName, String lastName) {
-    //     this(firstName, null, lastName);
-    // }
-    // public edu.generic.Person(String fullName) {
-    //     setFullName(fullName);
-    // }
     public Person(String firstName, String middleName, String lastName) {
         this.firstName = firstName;
         this.middleName = middleName;
@@ -19,30 +13,26 @@ public class Person {
     public Person() {}
 
     public String toString() {
-        if(hasMiddleName() == true) {
             return firstName + " " + middleName + " " + lastName;
-    } else {
-        return firstName + " " + lastName;
     }
-    }
-    // public String getFirstName() {
-    //     return firstName;
-    // }
-    // public void setFirstName(String name) {
-    //     firstName = name;
-    // }
-    // public String getMiddleName() {
-    //     return middleName;
-    // }
-    // public void setMiddleName(String name) {
-    //     middleName = name;
-    // }
-    // public String getLastName() {
-    //     return lastName;
-    // }
-    // public void setLastName(String name) {
-    //     lastName = name;
-    // }
+    public String getFirstName() {
+         return firstName;
+     }
+     public void setFirstName(String name) {
+         firstName = name;
+     }
+     public String getMiddleName() {
+         return middleName;
+     }
+     public void setMiddleName(String name) {
+         middleName = name;
+     }
+     public String getLastName() {
+         return lastName;
+     }
+     public void setLastName(String name) {
+         lastName = name;
+     }
     // String getFullName() {
     //     if(hasMiddleName() == true){
     //         return firstName + " " + middleName + " " + lastName; }
@@ -60,7 +50,7 @@ public class Person {
     //         middleName = null;
     //     }
     // }
-    public boolean hasMiddleName() {
-        return middleName != null;
-    }
+    // public boolean hasMiddleName() {
+    //    return middleName != null;
+    // }
 }

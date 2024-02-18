@@ -18,27 +18,27 @@ public class Teacher extends Person {
     }
     public Teacher() {}
 
-    // public boolean isEmployment() {
-    //     return this.employment;
-    // }
+    public String getEmployment() {
+        return employment;
+    }
 
-    // public void setEmployment(boolean employment) {
-    //     this.employment = employment;
-    // }
+    public void setEmployment(String employment) {
+        this.employment = employment;
+    }
 
-    // public Date getEmploymentStart() {
-    //     return this.employmentStart;
-    // }
+    public LocalDate getEmploymentStart() {
+        return employmentStart;
+    }
 
-    // public void setEmploymentStart(Date employmentStart) {
-    //     this.employmentStart = employmentStart;
-    // }
+    public void setEmploymentStart(LocalDate employmentStart) {
+        this.employmentStart = employmentStart;
+    }
 
-    // public Date getEmploymentEnd() {
-    //     return this.employmentEnd;
-    // }
+    public LocalDate getEmploymentEnd() {
+        return employmentEnd;
+    }
 
-    // public void setEmploymentEnd(Date employmentEnd) {
-    //     this.employmentEnd = employmentEnd;
-    // }
+    public void setEmploymentEnd(LocalDate employmentEnd) {
+        this.employmentEnd = employmentEnd;
+    }
 }

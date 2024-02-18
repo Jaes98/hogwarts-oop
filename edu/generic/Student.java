@@ -13,32 +13,32 @@ public class Student extends Person {
         this.graduationYear = graduationYear;
         this.graduated = graduated;
     }
-    public Student() {
-    }
+     public Student() {
+     }
 
-    // public int getEnrollmentYear() {
-    //     return enrollmentYear;
-    // }
+     public int getEnrollmentYear() {
+         return enrollmentYear;
+     }
 
-    // public void setEnrollmentYear(int enrollmentYear) {
-    //     this.enrollmentYear = enrollmentYear;
-    // }
+     public void setEnrollmentYear(int enrollmentYear) {
+         this.enrollmentYear = enrollmentYear;
+     }
 
-    // public int getGraduationYear() {
-    //     return graduationYear;
-    // }
+     public int getGraduationYear() {
+         return graduationYear;
+     }
 
-    // public void setGraduationYear(int graduationYear) {
-    //     this.graduationYear = graduationYear;
-    // }
+     public void setGraduationYear(int graduationYear) {
+         this.graduationYear = graduationYear;
+     }
 
-    // public boolean isGraduated() {
-    //     return graduated;
-    // }
+     public boolean isGraduated() {
+         return graduated;
+     }
 
-    // public void setGraduated(boolean graduated) {
-    //     this.graduated = graduated;
-    // }
+    public void setGraduated(boolean graduated) {
+         this.graduated = graduated;
+     }
 
     public String toString() {
         return super.toString() + " " + enrollmentYear + " " + graduationYear + " " + graduated;

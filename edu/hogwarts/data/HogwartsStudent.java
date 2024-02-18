@@ -40,5 +40,17 @@ public class HogwartsStudent extends Student {
         this.teams = teams;
     }
 
+    public String toString() {
+        String teamsMsg = "";
+        for (String team : teams) {
+            teamsMsg += team + " ";
+
+        return "HogwartsStudent{" +
+                "name=" + getFirstName() + ", " + getLastName() + ", " +
+                "house=" + getHouse() +
+                ", prefect=" + isPrefect() +
+                ", teams=" + teamsMsg +
+                '}';
+    }
 }
 
