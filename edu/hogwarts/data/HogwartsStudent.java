@@ -13,6 +13,13 @@ public class HogwartsStudent extends Student {
             this.prefect = prefect;
             this.teams = teams;
     }
+    public HogwartsStudent(HogwartsStudent copyStudent) {
+        super( copyStudent.getLastName(), copyStudent.getFirstName(), copyStudent.getMiddleName(), copyStudent.getEnrollmentYear(),copyStudent.getGraduationYear(),copyStudent.isGraduated());
+        this.house = copyStudent.house;
+        this.prefect = copyStudent.prefect;
+        this.teams = copyStudent.teams;
+
+    }
     public HogwartsStudent() {
     }
 
@@ -44,13 +51,14 @@ public class HogwartsStudent extends Student {
         String teamsMsg = "";
         for (String team : teams) {
             teamsMsg += team + " ";
+        }
 
         return "HogwartsStudent{" +
                 "name=" + getFirstName() + ", " + getLastName() + ", " +
                 "house=" + getHouse() +
                 ", prefect=" + isPrefect() +
                 ", teams=" + teamsMsg +
-                '}';
+                "}";
     }
 }
 

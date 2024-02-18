@@ -12,6 +12,13 @@ public class HogwartsTeacher extends Teacher {
         this.headOfHouse = headOfHouse;
     }
 
+    public HogwartsTeacher(HogwartsTeacher copyTeacher) {
+        super(copyTeacher.getLastName(), copyTeacher.getFirstName(), copyTeacher.getMiddleName(), copyTeacher.getEmployment(),
+                copyTeacher.getEmploymentStart(), copyTeacher.getEmploymentEnd());
+        this.house = copyTeacher.getHouse();
+        this.headOfHouse = copyTeacher.isHeadOfHouse();
+    }
+
     public HogwartsTeacher() {
     }
 

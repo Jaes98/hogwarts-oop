@@ -16,6 +16,17 @@ public class Teacher extends Person {
         this.employmentStart = LocalDate.parse(employmentStart);
         this.employmentEnd = LocalDate.parse(employmentEnd);
     }
+
+    public Teacher(String lastName, String firstName, String middleName,
+                   String employment,
+                   LocalDate employmentStart,
+                   LocalDate employmentEnd
+    ) {
+        super(lastName, firstName, middleName);
+        this.employment = employment;
+        this.employmentStart = employmentStart;
+        this.employmentEnd = employmentEnd;
+    }
     public Teacher() {}
 
     public String getEmployment() {

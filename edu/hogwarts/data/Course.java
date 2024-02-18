@@ -2,6 +2,9 @@ package edu.hogwarts.data;
 
 import edu.generic.Student;
 import edu.generic.Teacher;
+import edu.hogwarts.data.HogwartsStudent;
+import edu.hogwarts.data.TeachingMaterial;
+
 
 public class Course {
     Subject subject;
@@ -16,10 +19,6 @@ public class Course {
         this.materials = materials;
     }
     public Course() {}
-    public void setTeachers() {
-    }
-    public void addStudents() {
-    }
 
     public Subject getSubject() {
         return subject;
@@ -51,5 +50,19 @@ public class Course {
 
     public void setMaterials(TeachingMaterial[] materials) {
         this.materials = materials;
+    }
+
+    public String toString(){
+        String studentMsg = "";
+        for (Student student : students) {
+            studentMsg += student + " ";
+        }
+        String materialMsg = "";
+        for (TeachingMaterial material : materials) {
+            materialMsg += material + " ";
+        }
+        String msg = "\n subject " + subject + "\n teacher " + teacher + "\n teacher " + teacher + "\n students " +studentMsg +
+                "\n materials " +materialMsg;
+        return msg;
     }
 }
