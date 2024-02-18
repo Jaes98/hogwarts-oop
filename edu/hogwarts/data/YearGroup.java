@@ -10,27 +10,40 @@ public class YearGroup extends HogwartsStudent {
     Date beginningOfSchoolYear;
     Student[] students;
 
-    // public int getSchoolYear() {
-    //     return this.schoolYear;
-    // }
+    public YearGroup(String lastName, String firstName, String middleName, int enrollmentYear, int graduationYear, boolean graduated, House house, boolean prefect, String[] teams, int schoolYear, Date beginningOfSchoolYear, Student[] students) {
+        super(lastName, firstName, middleName, enrollmentYear, graduationYear, graduated, house, prefect, teams);
+        this.schoolYear = schoolYear;
+        this.beginningOfSchoolYear = beginningOfSchoolYear;
+        this.students = students;
+    }
 
-    // public void setSchoolYear(int schoolYear) {
-    //     this.schoolYear = schoolYear;
-    // }
+    public YearGroup(int schoolYear, Date beginningOfSchoolYear, Student[] students) {
+        this.schoolYear = schoolYear;
+        this.beginningOfSchoolYear = beginningOfSchoolYear;
+        this.students = students;
+    }
 
-    // public Date getBeginningOfSchoolYear() {
-    //     return this.beginningOfSchoolYear;
-    // }
+    public int getSchoolYear() {
+        return schoolYear;
+    }
 
-    // public void setBeginningOfSchoolYear(Date beginningOfSchoolYear) {
-    //     this.beginningOfSchoolYear = beginningOfSchoolYear;
-    // }
+    public void setSchoolYear(int schoolYear) {
+        this.schoolYear = schoolYear;
+    }
 
-    // public edu.generic.Student[] getStudents() {
-    //     return this.students;
-    // }
+    public Date getBeginningOfSchoolYear() {
+        return beginningOfSchoolYear;
+    }
 
-    // public void setStudents(edu.generic.Student[] students) {
-    //     this.students = students;
-    // }
+    public void setBeginningOfSchoolYear(Date beginningOfSchoolYear) {
+        this.beginningOfSchoolYear = beginningOfSchoolYear;
+    }
+
+    public Student[] getStudents() {
+        return students;
+    }
+
+    public void setStudents(Student[] students) {
+        this.students = students;
+    }
 }
