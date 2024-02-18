@@ -1,4 +1,6 @@
-public class House implements HogwartsPerson{
+package edu.hogwarts.data;
+
+public class House implements HogwartsPerson {
     String houseName;
     String founder;
     String[] colors;

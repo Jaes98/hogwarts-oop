@@ -1,3 +1,7 @@
+package edu.hogwarts.data;
+
+import edu.hogwarts.data.TeachingMaterial;
+
 public class Wand extends TeachingMaterial {
     double lengthInInches;
     String wood;

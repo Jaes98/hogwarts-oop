@@ -1,3 +1,7 @@
+package edu.hogwarts.data;
+
+import edu.generic.Student;
+
 public class HogwartsStudent extends Student implements HogwartsPerson {
     House house;
     boolean prefect;
@@ -12,11 +16,11 @@ public class HogwartsStudent extends Student implements HogwartsPerson {
         public HogwartsStudent() {
         }
 
-        // public House getHouse() {
+        // public edu.hogwarts.data.House getHouse() {
         //     return this.house;
         // }
 
-        // public void setHouse(House house) {
+        // public void setHouse(edu.hogwarts.data.House house) {
         //     this.house = house;
         // }
 

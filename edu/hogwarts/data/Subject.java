@@ -1,3 +1,7 @@
+package edu.hogwarts.data;
+
+import edu.hogwarts.data.Course;
+
 public class Subject extends Course {
     String name;
     int schoolYear;

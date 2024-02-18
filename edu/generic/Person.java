@@ -1,12 +1,14 @@
+package edu.generic;
+
 public class Person {
     private String firstName;
     private String middleName;
     private String lastName;
 
-    // public Person(String firstName, String lastName) {
+    // public edu.generic.Person(String firstName, String lastName) {
     //     this(firstName, null, lastName);
     // }
-    // public Person(String fullName) {
+    // public edu.generic.Person(String fullName) {
     //     setFullName(fullName);
     // }
     public Person(String firstName, String middleName, String lastName) {

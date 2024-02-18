@@ -1,3 +1,8 @@
+package edu.hogwarts.data;
+
+import edu.generic.Student;
+import edu.hogwarts.data.HogwartsStudent;
+
 import java.util.Date;
 
 public class YearGroup extends HogwartsStudent {
@@ -21,11 +26,11 @@ public class YearGroup extends HogwartsStudent {
     //     this.beginningOfSchoolYear = beginningOfSchoolYear;
     // }
 
-    // public Student[] getStudents() {
+    // public edu.generic.Student[] getStudents() {
     //     return this.students;
     // }
 
-    // public void setStudents(Student[] students) {
+    // public void setStudents(edu.generic.Student[] students) {
     //     this.students = students;
     // }
 }

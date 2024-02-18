@@ -1,3 +1,5 @@
+package edu.hogwarts.data;
+
 public class Ingredient extends TeachingMaterial {
     String name;
     double amount;

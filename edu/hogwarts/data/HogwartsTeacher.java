@@ -1,3 +1,7 @@
+package edu.hogwarts.data;
+
+import edu.generic.Teacher;
+
 public class HogwartsTeacher extends Teacher implements HogwartsPerson {
     House house;
     boolean headOfHouse;
@@ -7,17 +11,17 @@ public class HogwartsTeacher extends Teacher implements HogwartsPerson {
         this.house = house;
         this.headOfHouse = headOfHouse;
     }
-    // public HogwartsTeacher(String fullName) {
+    // public edu.hogwarts.data.HogwartsTeacher(String fullName) {
     //     setFullName(fullName);
     // }
     public HogwartsTeacher() {
     }
 
-    // public House getHouse() {
+    // public edu.hogwarts.data.House getHouse() {
     //     return this.house;
     // }
 
-    // public void setHouse(House house) {
+    // public void setHouse(edu.hogwarts.data.House house) {
     //     this.house = house;
     // }
 

@@ -1,4 +1,7 @@
-import java.time.*;
+package edu.hogwarts.application;
+
+import edu.generic.Person;
+import edu.generic.Student;
 
 public class App {
     public static void main(String[] args) {
@@ -9,14 +12,10 @@ public class App {
         System.out.println("Hello, world!");
         Person ron = new Person("Ronald", "Weasley", "Weasel");
         Student harry = new Student("Potter", "Harry", "James", 1991, 1998, true);
-        // HogwartsStudent hStudent = new HogwartsStudent("Potter", "Harry", "James", 1991, 1998, true, "Lmao", true, "Yessir");
+        // edu.hogwarts.data.HogwartsStudent hStudent = new edu.hogwarts.data.HogwartsStudent("Potter", "Harry", "James", 1991, 1998, true, "Lmao", true, "Yessir");
         System.out.println(harry);
         System.out.println(ron);
         // System.out.println(hStudent.toString());
-
-        DynamicArray dArray = new DynamicArray();
-        dArray.add("ron");
-        dArray.printArray();
 
     }
 }

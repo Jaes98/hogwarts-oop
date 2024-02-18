@@ -1,3 +1,8 @@
+package edu.hogwarts.data;
+
+import edu.generic.Student;
+import edu.generic.Teacher;
+
 public class Course {
     Subject subject;
     Teacher teacher;

@@ -1,3 +1,7 @@
+package edu.hogwarts.data;
+
+import edu.hogwarts.data.TeachingMaterial;
+
 public class Tool extends TeachingMaterial {
     String name;
     String description;

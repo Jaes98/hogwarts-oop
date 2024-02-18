@@ -1,3 +1,7 @@
+package edu.hogwarts.data;
+
+import edu.hogwarts.data.Course;
+
 abstract class TeachingMaterial extends Course {
     String name;
     boolean onShoppingList;
