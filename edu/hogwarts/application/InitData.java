@@ -4,6 +4,8 @@ import edu.hogwarts.data.HogwartsStudent;
 import edu.hogwarts.data.HogwartsTeacher;
 import edu.hogwarts.data.*;
 
+import java.sql.SQLOutput;
+
 public class InitData {
 
     TeacherController teachers;
@@ -27,6 +29,7 @@ public class InitData {
         var potionCourse = new Course(potionSubject, snape, new HogwartsStudent[]{harry, ron}, new TeachingMaterial[]{tempIngredient, testTool} );
 
         System.out.println(potionCourse);
+        System.out.println("printer den?");
 
         students.createStudent(harry);
         students.createStudent(ron);
